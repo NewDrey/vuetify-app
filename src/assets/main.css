@@ -1,0 +1,104 @@
+#tabs {
+    width: 40%;
+    float: right;
+    margin-right: 3%;
+    margin-top: 8%
+}
+
+#row {
+    border-style: dashed;
+    width: 100%
+}
+.leftTd {
+
+    width: 25vw;
+
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    padding-top: 1%;
+
+  }
+
+.rightTd {
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    padding-top: 2%;
+    width: 25vw;
+  }
+
+  .productName{
+    width: 54%;
+    float: left;
+ 
+    margin-left: 3%;
+    margin-top: 3%
+  }
+
+  .photoSlider{
+    margin-top: 4%;
+    width: 40% !important;
+    height: 70%;
+    margin-left: 8%;
+    float: left
+  }
+
+  .contactButton{
+    margin-top: 5%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    float: right;
+    width: 15%;
+    height: 7% !important;
+    background-color: orange;
+    border-radius: 15px;
+  }
+
+  .contactWindow{
+    background-color: rgba(202, 202, 202, 1);
+    width: 50%;
+    height: 48vh;
+    border-radius: 25px;
+    text-align: center !important;
+    justify-items: center !important;
+    z-index: 100;
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 15vh
+  }
+
+  .contactFormHeader{
+    margin-top: 5%;
+    font-size: 170%;
+  }
+
+  .contactFormField{
+      width: 60%;
+      margin-left: 20%;
+      margin-top: 5%;
+      margin-bottom: 3%;
+  }
+
+  .contactFormButton{
+    background-color: orange;
+    border-radius: 15px;
+    margin-bottom: 5%
+  }
+
+  .fullscreen-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+  }
+
+  .fullscreen-image img {
+    width: 100%;
+    height: 90%;
+    object-fit: contain;
+  }
