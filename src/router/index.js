@@ -1,12 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import App from '../App.vue'
+import ProductView from '../views/ProductView.vue'
 import '../assets/main.css'
 
 const routes = [
   {
     path: '/',
-    name: 'app',
-    component: App
+    name: 'product',
+    component: ProductView
   }
 ]
 
@@ -14,6 +14,5 @@ const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes
 })
-
 
 export default router
