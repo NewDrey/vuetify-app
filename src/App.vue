@@ -146,8 +146,6 @@ import productInfo from "./assets/productInfo.json";
       }
   }
   
-  
-
 </script>
 <style scoped>
  
