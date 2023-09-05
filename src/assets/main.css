@@ -1,14 +1,12 @@
+
+/** Стиль для боковых вкладок описания товара*/
 #tabs {
     width: 40%;
     float: right;
     margin-right: 3%;
 }
 
-#row {
-    border-style: dashed;
-    width: 100%
-}
-
+/** Стили таблицы с характеристиками товара*/
 .leftTd {
     width: 25vw;
     text-align: left;
@@ -16,7 +14,6 @@
     padding-top: 1%;
 
   }
-
 .rightTd {
     text-align: left;
     border-bottom: 1px solid #ddd;
@@ -24,6 +21,7 @@
     width: 25vw;
   }
 
+/** Стиль основного заголовка страницы (название товара) */
   .productName{
     width: 54%;
     float: left;
@@ -31,6 +29,12 @@
     margin-top: 3%
   }
 
+/** Стиль для цены товара */
+  .price{
+    display: block;
+  }
+
+/** Стиль слайдера фотографий */
   .photoSlider{
     width: 40% !important;
     height: 70%;
@@ -38,6 +42,7 @@
     float: left
   }
 
+  /** Стиль кнопки заказа*/
   .contactButton{
     margin-top: 5%;
     margin-right: 15%;
@@ -49,6 +54,7 @@
     border-radius: 15px;
   }
 
+  /** Стили открывющегося окна заказа */
   .contactWindow{
     background-color: rgba(202, 202, 202, 1);
     width: 50%;
@@ -61,25 +67,23 @@
     margin-left: 25%;
     margin-top: -60vh !important;
   }
-
   .contactFormHeader{
     margin-top: 5%;
     font-size: 170%;
   }
-
   .contactFormField{
       width: 60%;
       margin-left: 20%;
       margin-top: 5%;
       margin-bottom: 3%;
   }
-
   .contactFormButton{
     background-color: orange;
     border-radius: 15px;
     margin-bottom: 5%
   }
 
+  /**Стили блока затемнения и фото на весь экран */
   .fullscreen-image {
     position: fixed;
     top: 0;
@@ -92,18 +96,15 @@
     align-items: center;
     z-index: 99;
   }
-
   .fullscreen-image img {
     width: 100%;
-    height: 90%;
+    height: 80%;
     object-fit: contain;
   }
 
+/** Стиль для заметки страницы */
   .col{
     min-width: 49vw !important;
     float: left
   }
 
-  .price{
-    display: block;
-  }

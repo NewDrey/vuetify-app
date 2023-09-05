@@ -1,7 +1,9 @@
 <template>
-  <v-container> <!-- Создаем контейнер внутри которого и будут элементы компонента -->
+  <!-- Сама карточка товара -->
+  
+  <v-container>
     
-    <v-row> <!-- В это row выводим заголовок компонента -->
+    <v-row> 
       <v-col class="col">
         <h1 class="productName">{{ productName }}</h1>
         <descriptionTabs/>
@@ -17,7 +19,6 @@
 </template>
 
   <script>
-
   import photoSlider from '@/components/photoSlider.vue'
   import orderProcess from '@/components/orderProcess.vue'
   import descriptionTabs from '@/components/descriptionTabs.vue'

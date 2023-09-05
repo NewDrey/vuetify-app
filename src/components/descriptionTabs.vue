@@ -1,3 +1,5 @@
+<!-- Компаонент боковых вкладок с описанием и характеристикой товара -->
+
 <template>
     <v-container>
       <v-expansion-panels id="tabs" multiple>

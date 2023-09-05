@@ -1,6 +1,13 @@
+<!-- Компоненты кнопки и формы заказа -->
+
 <template>
     <v-container>
+
+        <!-- Кнопка заказа -->
         <v-btn class="contactButton" @click = "showContactForm">Заказать</v-btn>
+
+        <!-- Блок затемнения и форма заказа, на данный момент post запрос уходит в пустоту и получает 404, в дальнейшем можно привязать mailer и закрывать форму только
+        при 200 статусе, при ином выдавать ошибку -->
         <div id="regForm" v-show="isFormVisible" class="fullscreen-image" @click="hideContactForm"></div>
         <div id="contactWindow" v-show="isFormVisible" class="contactWindow">
             <form @submit.prevent="submit">
@@ -12,6 +19,8 @@
                     required
                 >
                 </v-text-field>
+
+                <!-- Поле ввода телефона явно требует маски, пока не успел найти подходящую библиотеку для Vuetify 3 -->
                 <v-text-field
                     id="phoneField"
                     class="contactFormField"

@@ -1,3 +1,5 @@
+<!-- Компонент слайдера фотографий -->
+
 <template>
     <v-container>
         <v-carousel class="photoSlider"
@@ -12,6 +14,7 @@
           @click= "showImage"
         ></v-carousel-item>
 
+        <!-- Блок затемнения и показа фото на полный экран -->
         <div v-show="isImageVisible" id='fullScreenDiv' class="fullscreen-image" @click="hideImage">
           <img id='fullScreenImage' :src="require('../assets/pic1.png')" alt="Full screen Image" />
         </div>
